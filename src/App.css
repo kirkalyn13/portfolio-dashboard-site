@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color:#B2DFDB;
+}
+
+.header {
+  display: flex;
+  top: 0;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 10vh;
+  background: #00796B;
+  color: white;
+}
+
+img{
+  width: 70;
+  height: 70;
+  padding:10px 20px 10px 20px;
+}
+.title{
+  padding:10px;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #00796B;
+  color: white;
+}
+.container-talkies{
+  background-color: #0097A7;
+  color: #FFFFFF;
+  padding: 5px 20px 5px 20px;
+  margin: 1rem;
+}
+.container-logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+.container-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+}
+.container-creator{
+  display: flex;
+}
+
+a:link, a:visited {
+  background-color: #00796B;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right:2px;
+}
+
+a:hover, a:active {
+  background-color: #00BCD4;
+  border: 3px solid #607D8B;
+  color: white;
+}
