@@ -28,6 +28,9 @@ const Navbar = ({logo}) => {
                 <Link to="/awards">
                   Awards
                 </Link>
+                <Link to="/products">
+                  Products
+                </Link>
               </ul>
             </nav>
         </div>

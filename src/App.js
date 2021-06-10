@@ -7,6 +7,7 @@ import Latency from './components/Latency'
 import OpenSignal from './components/OpenSignal'
 import Users from './components/Users'
 import About from './components/About'
+import Products from './components/Products'
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
               </Route>
               <Route path="/awards">
                 <OpenSignal title={"Open Signal Awards"} />
+              </Route>
+              <Route path="/products">
+                <Products />
               </Route>
             </Switch>
           </div> 
