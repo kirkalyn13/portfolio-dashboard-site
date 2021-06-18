@@ -43,6 +43,9 @@ footer {
   color: white;
 }
 .container-talkies{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: #0097A7;
   color: #FFFFFF;
   padding: 5px 20px 5px 20px;
@@ -61,6 +64,9 @@ footer {
   font-size: large;
 }
 .container-creator{
+  display: flex;
+}
+.container-product{
   display: flex;
 }
 
