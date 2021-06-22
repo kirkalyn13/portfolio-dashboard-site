@@ -6,9 +6,11 @@ const Navbar = ({logo}) => {
     return (
       <>
         <header className='header'>
+          <div className="container-head">
             <div className="img">
             <img src="/images/header_logo.png" width="70" height="70" alt=""/>
             </div>
+          </div>
           <h1 className='title'>Mobile Metrics Dashboard</h1>
         <div className="container-nav">
             <nav>

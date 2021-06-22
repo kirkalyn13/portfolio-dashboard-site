@@ -26,6 +26,9 @@ const series = [{
     dataLabels: {
       enabled: true,
       offsetY: -20,
+      style:{
+        fontSize: '8px',
+      }
     },
     stroke: {
       show: true,

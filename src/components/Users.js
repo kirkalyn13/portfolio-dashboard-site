@@ -14,7 +14,8 @@ const options = {
       breakpoint: 480,
       options: {
         chart: {
-          width: 100
+          width: 350,
+          height: 350
         },
       }
     }],
