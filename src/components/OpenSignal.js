@@ -27,7 +27,8 @@ const series = [{
       enabled: true,
       offsetY: -20,
       style:{
-        fontSize: '8px',
+        fontSize: '10px',
+        colors: ["#FFFFFF"]
       }
     },
     stroke: {
@@ -35,12 +36,33 @@ const series = [{
       width: 2,
       colors: ['transparent']
     },
+    legend:{
+      labels:{
+        colors: ["#FFFFFF"]
+      }
+    },
+    grid:{
+      borderColor: '#455A64'
+    },
     xaxis: {
       categories: ['Video Experience','Gaming Experience','Voice App Experience','Download Speed','Upload Speed','4G Availability','4G Coverage'],
+      labels: {
+        style: {
+          colors: ["#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF"]
+        }
+      }
     },
     yaxis: {
       title: {
-        text: 'points'
+        text: 'points',
+        style:{
+          color: "#FFFFFF"
+        }
+      },
+      labels:{
+        style:{
+          colors: ["#FFFFFF"]
+        }
       }
     },
     fill: {
@@ -57,7 +79,7 @@ const series = [{
   
 const OpenSignal = ({title}) => {
     return (
-        <div>
+        <div className="graph">
             <h1>{title}</h1>
             <ReactApexChart options={options} series={series} type="bar" height={350} />
             <Talkies title={osTitle} content={osContent} />

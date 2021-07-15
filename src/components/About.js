@@ -13,7 +13,7 @@ const About = () => {
         <div>
             <div className="container-logo">
                 <img src="/images/smartlogo.png" width="400" height="300" alt=""/>
-                <img src="/images/globelogo.png" width="450" height="200" alt=""/>
+                <img src="/images/globelogo.png" width="400" height="200" alt=""/>
             </div>
             <Talkies title={aboutTitle} content={aboutContent} />
             <div className="container-creator">

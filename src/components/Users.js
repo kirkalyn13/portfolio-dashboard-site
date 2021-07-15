@@ -20,7 +20,10 @@ const options = {
       }
     }],
     legend: {
-        position: 'bottom'
+        position: 'bottom',
+        labels:{
+          colors: ["#FFFFFF"]
+        }
       },
     tooltip: {
         y: {
@@ -33,7 +36,7 @@ const options = {
 
 const Users = ({title}) => {
     return (
-        <div>
+        <div className="graph">
             <h1>{title}</h1>
             <ReactApexChart options={options} series={series} type="donut" height={300}/>
             <Talkies title={usersTitle} content={subsContent} />

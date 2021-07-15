@@ -19,12 +19,32 @@ const options = {
   dataLabels: {
     enabled: false
   },
+  grid:{
+    borderColor: '#455A64'
+  },
+  yaxis:{
+    labels:{
+      style:{
+        colors: ["#FFFFFF"]
+      }
+    }
+  },
   stroke: {
     curve: 'smooth'
   },
+  legend:{
+    labels:{
+      colors: ["#FFFFFF"]
+    }
+  },
   xaxis: {
     type: 'month',
-    categories: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+    categories: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    labels: {
+      style: {
+        colors: ["#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF"]
+      }
+    }
   },
   tooltip: {
     y: {
@@ -37,7 +57,7 @@ const options = {
 
 const DLSpeed = ({title}) => {
     return (
-        <div>
+        <div className="graph">
             <h1>{title}</h1>
             <ReactApexChart options={options} series={series} type="area" height={350} />
             <Talkies title={dlTitle} content={dlSpeedContent} />

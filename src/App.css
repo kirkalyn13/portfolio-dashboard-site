@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
 }
 
 body{
-  background-color:#B2DFDB;
+  background-color:#212121;
 }
-
+h1{
+  color: #FFFFFF;
+}
 .header {
   display: flex;
   top: 0;
@@ -14,7 +15,7 @@ body{
   justify-content: flex-start;
   align-items: center;
   min-height: 10vh;
-  background: #00796B;
+  background: #009688;
   color: white;
 }
 
@@ -24,6 +25,7 @@ img{
 }
 .title{
   padding:10px;
+  font-weight:bold;
 }
 
 a {
@@ -38,14 +40,14 @@ footer {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: #00796B;
+  background: #009688;
   color: white;
 }
 .container-talkies{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: #0097A7;
+  background-color: #00796B;
   color: #FFFFFF;
   padding: 5px 20px 5px 20px;
   margin: 1rem;
@@ -69,21 +71,26 @@ footer {
 .container-product{
   display: flex;
 }
+.graph{
+    align-items: center;
+}
 
 a:link, a:visited {
-  background-color: #00796B;
-  color: black;
+  background-color: #009688;
+  color: #FFFFFF;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin-right:2px;
+  border-radius: 5px;
 }
 
 a:hover, a:active {
-  background-color: #00BCD4;
+  background-color: #B2DFDB;
   border: 3px solid #607D8B;
-  color: white;
+  color: #000000;
+  font-weight: bold;
 }
 .img-container{
   position: sticky;
@@ -116,9 +123,9 @@ a:hover, a:active {
   }
   .container-nav{
     display: flex;
+    justify-content: center;
     align-items: space-around;
-    font-size: smaller;
-    margin: 2px;
+    font-size: x-small;
   }
   header{
     display: flex;
