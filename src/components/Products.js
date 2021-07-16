@@ -6,6 +6,8 @@ const pingChatTitle = "Connect with your Network."
 const pingChatContent = 'With the Ping Chat App, connect and collaborate with your colleagues within your "Local Area Network". Share updates, snippets, insights, and troubleshooting recommendations with this local chat app suited for your business needs, to deliver fast and quality telecommunications service to your subscribers.'
 const scriptTitle = "Visualize Insights, Quickly"
 const scriptContent = "The trends and insights you need for your endorsements or reports can now be automatically generated using the Open Signal Report Generator. With the script powered by Python, speed up your reporting with the automatic graph generation per region, complete with a summarized table with initial troubleshhoting insights."
+const emeterTitle = "Power Up your Devices Just Right"
+const emeterContent = "Monitor DC and AC Metrics that power your devices and nodes. With the insightful Energy Meter Monitoring Dashboard, quickly capture power failures, and diagnose power discrepancies immediately once you monitor abnormalities."
 
 const Products = () => {
     return (
@@ -15,12 +17,16 @@ const Products = () => {
                 <Talkies title={sitegeoTitle} content={sitegeoContent} />
             </div>
             <div className="container-product">
-                <img src="/images/chat.png" className="img-products" width="60%" height="350" position="sticky" alt=""/> 
-                <Talkies title={pingChatTitle} content={pingChatContent} />
+                <img src="/images/emeter_sample.png" className="img-products" width="60%" height="350" position="sticky" alt=""/> 
+                <Talkies title={emeterTitle} content={emeterContent} />
             </div>
             <div className="container-product">
                 <img src="/images/os_genreport.png" className="img-products" width="60%" height="350" position="sticky" alt=""/>
                 <Talkies title={scriptTitle} content={scriptContent} /> 
+            </div>
+            <div className="container-product">
+                <img src="/images/chat.png" className="img-products" width="60%" height="350" position="sticky" alt=""/> 
+                <Talkies title={pingChatTitle} content={pingChatContent} />
             </div>
         </div>
     )

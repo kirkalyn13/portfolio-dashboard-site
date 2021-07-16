@@ -25,7 +25,7 @@ const Navbar = ({logo}) => {
                   Latency
                 </Link>
                 <Link to="/subscribers">
-                  Subscribers
+                  Users
                 </Link>
                 <Link to="/awards">
                   Awards

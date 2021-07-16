@@ -61,9 +61,9 @@ footer {
 }
 .container-nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
-  font-size: large;
+  font-size: medium;
 }
 .container-creator{
   display: flex;
