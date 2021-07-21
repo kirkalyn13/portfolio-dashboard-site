@@ -1,5 +1,9 @@
 import Talkies from './Talkies'
 
+const kpiTitle = "Conduct Data-Driven Network Troubleshooting"
+const kpiContent = "Monitor your Network's Service Quality and Performance from near real-time data trends using the Network KPI Monitoring Dashboard. Track KPI abnormalities immendiately to produce insights and derive conclusions regarding your Network's behavior."
+const outagesTitle = "Keep an Eye Out for Outages"
+const outagesContent = "With the Outage Monitoring feature of the Network KPI Monitoring Dashboard, you can immediately pin-point concerned links/nodes through the timely update of outage alarms, which comes with severity specifications."
 const sitegeoTitle = "Find Serving Sites Near You"
 const sitegeoContent = "Using the Site GeoMap App, Identify your possible serving site within your range. Packed with Site Information, including the availability of 2G, 3G, and 4G technologies. It is a powerful tool for service assurance and testing functions to easily identify concerned sites with service feedback issues."
 const pingChatTitle = "Connect with your Network."
@@ -12,6 +16,14 @@ const emeterContent = "Monitor DC and AC Metrics that power your devices and nod
 const Products = () => {
     return (
         <div>
+            <div className="container-product">
+                <img src="/images/kpi-sample.png" className="img-products" width="60%" height="350" position="sticky" alt=""/> 
+                <Talkies title={kpiTitle} content={kpiContent} />
+            </div>
+            <div className="container-product">
+                <img src="/images/outages-sample.png" className="img-products" width="60%" height="350" position="sticky" alt=""/> 
+                <Talkies title={outagesTitle} content={outagesContent} />
+            </div>
             <div className="container-product">
                 <img src="/images/sitegeo_sample.png" className="img-products" width="60%" height="350" position="sticky" alt=""/> 
                 <Talkies title={sitegeoTitle} content={sitegeoContent} />

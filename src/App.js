@@ -20,10 +20,10 @@ function App() {
                 <About />
               </Route>
               <Route path="/dlspeed">
-                <DLSpeed title={"2020 Download Speed Trend"} />
+                <DLSpeed title={"2021 Download Speed Trend"} />
               </Route>
               <Route path="/latency">
-                <Latency title={"2020 Latency Trend"} />
+                <Latency title={"2021 Latency Trend"} />
               </Route>
               <Route path="/subscribers">
                 <Users title={"Subscriber Distribution"} />

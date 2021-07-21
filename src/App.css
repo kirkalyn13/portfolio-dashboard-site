@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color:#212121;
+  background-color:#000;
 }
 h1{
   color: #FFFFFF;
@@ -72,7 +72,7 @@ footer {
   display: flex;
 }
 .graph{
-    align-items: center;
+  align-items: center;
 }
 
 a:link, a:visited {
@@ -87,8 +87,8 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: #B2DFDB;
-  border: 3px solid #607D8B;
+  background-color: #FFA000;
+  border: 3px solid #000000;
   color: #000000;
   font-weight: bold;
 }

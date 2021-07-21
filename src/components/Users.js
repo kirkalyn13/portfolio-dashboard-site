@@ -9,6 +9,28 @@ const options = {
     chart: {
       type: 'donut',
     },
+    plotOptions:{
+      pie:{
+        donut:{
+          labels:{
+            show:true,
+            name:{
+              show: true,
+            },
+            value:{
+              show: true,
+              color: '#FFFFFF',
+              formatter: function (val) {
+                return val + " %"
+              }
+            },
+          }
+        },
+      },
+    },
+    stroke:{
+      colors: ['#212121']
+    },
     labels: ['Globe','Smart','Others'],
     responsive: [{
       breakpoint: 480,
