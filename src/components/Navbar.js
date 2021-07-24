@@ -10,8 +10,8 @@ const Navbar = ({logo}) => {
             <div className="img">
             <img src="/images/header_logo.png" width="50" height="50" alt=""/>
             </div>
+              <h2 className='title'>Mobile Metrics Dashboard</h2>
           </div>
-          <h2 className='title'>Mobile Metrics Dashboard</h2>
         <div className="container-nav">
             <nav>
               <ul>

@@ -12,6 +12,8 @@ const scriptTitle = "Visualize Insights, Quickly"
 const scriptContent = "The trends and insights you need for your endorsements or reports can now be automatically generated using the Open Signal Report Generator. With the script powered by Python, speed up your reporting with the automatic graph generation per region, complete with a summarized table with initial troubleshhoting insights."
 const emeterTitle = "Power Up your Devices Just Right"
 const emeterContent = "Monitor DC and AC Metrics that power your devices and nodes. With the insightful Energy Meter Monitoring Dashboard, quickly capture power failures, and diagnose power discrepancies immediately once you monitor abnormalities."
+const calculatorTitle = "Solve for your Network Values"
+const calculatorContent = "With the simple Comms Calculator, just input your device metrics to determine various communications parameters easily. This could also be handy not just for quick calculations, but also for educational purposes."
 
 const Products = () => {
     return (
@@ -31,6 +33,10 @@ const Products = () => {
             <div className="container-product">
                 <img src="/images/emeter_sample.png" className="img-products" width="60%" height="350" position="sticky" alt=""/> 
                 <Talkies title={emeterTitle} content={emeterContent} />
+            </div>
+            <div className="container-product">
+                <img src="/images/calculator-sample.png" className="img-products" width="60%" height="350" position="sticky" alt=""/> 
+                <Talkies title={calculatorTitle} content={calculatorContent} />
             </div>
             <div className="container-product">
                 <img src="/images/os_genreport.png" className="img-products" width="60%" height="350" position="sticky" alt=""/>
