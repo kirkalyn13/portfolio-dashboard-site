@@ -78,6 +78,7 @@ footer {
 }
 .graph{
   align-items: center;
+  height: 90vh;
 }
 
 a:link, a:visited {
