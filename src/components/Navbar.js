@@ -1,8 +1,8 @@
 import React from 'react'
-import {Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../App.css';
 
-const Navbar = ({logo}) => {
+const Navbar = () => {
     return (
       <>
         <header className='header'>
@@ -18,20 +18,14 @@ const Navbar = ({logo}) => {
                 <Link to="/">
                 Home
                 </Link>
-                <Link to="/dlspeed">
-                  DL Speed
+                <Link to="/insights">
+                  Insights
                 </Link>
-                <Link to="/latency">
-                  Latency
+                <Link to="/projects">
+                  Projects
                 </Link>
-                <Link to="/subscribers">
-                  Users
-                </Link>
-                <Link to="/awards">
-                  Awards
-                </Link>
-                <Link to="/products">
-                  Products
+                <Link to="/contact">
+                  Contact
                 </Link>
               </ul>
             </nav>

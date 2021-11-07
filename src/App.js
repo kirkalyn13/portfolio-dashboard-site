@@ -2,12 +2,10 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import DLSpeed from './components/DLSpeed'
-import Latency from './components/Latency'
-import OpenSignal from './components/OpenSignal'
-import Users from './components/Users'
-import About from './components/About'
-import Products from './components/Products'
+import Insights from './routes/Insights'
+import About from './routes/About'
+import Projects from './routes/Projects'
+import Contact from './routes/Contact';
 
 function App() {
   return (
@@ -19,20 +17,14 @@ function App() {
               <Route exact path="/">
                 <About />
               </Route>
-              <Route path="/dlspeed">
-                <DLSpeed title={"2021 Download Speed Trend"} />
+              <Route path="/insights">
+                <Insights/>
               </Route>
-              <Route path="/latency">
-                <Latency title={"2021 Latency Trend"} />
+              <Route path="/projects">
+                <Projects />
               </Route>
-              <Route path="/subscribers">
-                <Users title={"Subscriber Distribution"} />
-              </Route>
-              <Route path="/awards">
-                <OpenSignal title={"Open Signal Awards"} />
-              </Route>
-              <Route path="/products">
-                <Products />
+              <Route path="/contact">
+                <Contact />
               </Route>
             </Switch>
           </div> 

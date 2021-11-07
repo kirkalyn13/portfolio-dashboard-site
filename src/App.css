@@ -38,14 +38,13 @@ a {
 }
 
 footer {
-  display: flex;
-  width: 100%;
+  padding: 15px 0px;
+  left: 0;
   bottom: 0;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-  background: #009688;
+  width: 100%;
+  background-color: #009688;
   color: white;
+  text-align: center;
 }
 
 .container-talkies{
@@ -78,9 +77,11 @@ footer {
 }
 .graph{
   align-items: center;
-  height: 90vh;
+  height: 65vh;
 }
-
+.talkies-tech{
+  display: flex;
+}
 a:link, a:visited {
   background-color: #009688;
   color: #FFFFFF;

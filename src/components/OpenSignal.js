@@ -1,5 +1,5 @@
 import ReactApexChart from 'react-apexcharts'
-import Talkies from './Talkies'
+import Talkies from '../components/Talkies'
 
 const osTitle = "Smart Wins by Unanymous Decision"
 const osContent = "Garnering a 5/7 Overall Score for the November 2020 Open Signal Awards, Smart proves that it is the king in Voice Experience, Download Speed, Upload Speed, 4G Availability, and 4G Coverage. Only at par with its competitor in terms of Gaming Experience, which is a major bandwidth consumer with the likes of Mobile Legends, League of Legends: Wild Rift, Genshin Impact, and Call of Duty Mobile. For the  Voice App Experience, Globe bags the medal, winning by 0.9 points, still proving its overall competency."
